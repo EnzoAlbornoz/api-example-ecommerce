@@ -1,0 +1,30 @@
+{
+	"name": "api-example-ecommerce",
+	"version": "1.0.0",
+	"description": "An example API for an e-commerce built on Fastify and Mongoose",
+	"main": "src/index.js",
+	"repository": "git@github.com:EnzoAlbornoz/api-example-ecommerce.git",
+	"author": "Enzo Albornoz <enzocoelhoalbornoz@gmail.com>",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"dev": "sucrase-node src/index.js"
+	},
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"fastify": "^2.13.1",
+		"fastify-cors": "^3.0.3",
+		"fastify-helmet": "^3.0.2",
+		"mongoose": "^5.9.9",
+		"pino-pretty": "^4.0.0"
+	},
+	"devDependencies": {
+		"eslint": "^6.8.0",
+		"eslint-config-airbnb-base": "^14.1.0",
+		"eslint-config-prettier": "^6.10.1",
+		"eslint-plugin-import": "^2.20.2",
+		"eslint-plugin-prettier": "^3.1.3",
+		"prettier": "^2.0.4",
+		"sucrase": "^3.13.0"
+	}
+}
